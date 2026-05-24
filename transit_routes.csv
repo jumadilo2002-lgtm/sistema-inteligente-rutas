@@ -1,0 +1,35 @@
+origin,destination,cost,route_name
+Centro,Terminal,15,Ruta 19
+Centro,Estadio,12,Ruta 9
+Centro,Salado,18,Ruta 21
+
+Terminal,Centro,18,Ruta 19
+Terminal,UCC,20,Ruta 43
+Terminal,Mirolindo,25,Ruta 28
+Terminal,Aeropuerto,30,Ruta 50
+
+Estadio,Centro,10,Ruta 82
+Estadio,UCC,15,Ruta 14
+Estadio,Hospital,8,Ruta 33
+
+UCC,Mirolindo,10,Ruta 43
+UCC,Estadio,14,Ruta 14
+UCC,UniversidadTolima,12,Ruta 60
+
+Mirolindo,Terminal,30,Ruta 28
+Mirolindo,Aeropuerto,10,Ruta 70
+
+Hospital,Salado,14,Ruta 33
+Hospital,Centro,16,Ruta 11
+
+Salado,Centro,20,Ruta 21
+Salado,Hospital,13,Ruta 33
+Salado,UniversidadTolima,9,Ruta 55
+
+UniversidadTolima,UCC,11,Ruta 60
+UniversidadTolima,Salado,10,Ruta 55
+UniversidadTolima,Aeropuerto,18,Ruta 71
+
+Aeropuerto,Mirolindo,12,Ruta 70
+Aeropuerto,Terminal,28,Ruta 50
+Aeropuerto,UniversidadTolima,20,Ruta 71
